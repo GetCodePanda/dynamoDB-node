@@ -8,33 +8,7 @@ AWS.config.update({
 const docClient = new AWS.DynamoDB.DocumentClient();
 
 const table = "Movies";
-const items = [
-    {
-        "year": 2015,
-        "title": "The Big New Movie",
-        "info":{
-            "plot": "Nothing happens at all.",
-            "rating": 0
-        }
-    },
-    {
-        "year": 2015,
-        "title": "Next Big Movie 1",
-        "info":{
-            "plot": "Nothing happens at all.",
-            "rating": 0
-        }
-    },
-    {
-        "year": 2015,
-        "title": "Next Big Movie 2",
-        "info":{
-            "plot": "Nothing happens at all.",
-            "rating": 0
-        }
-    },
 
-];
 
 const year = 2015;
 const title = "Next Big Movie 2";
